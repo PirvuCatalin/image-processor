@@ -1,4 +1,4 @@
-#ImageProcessor
+# ImageProcessor
 
 The ImageProcessor is a small project for my 3rd year course 
 "Web Applications using Java" of the Faculty of Automatic Control and Computer Science, Politehnica University of Bucharest.
@@ -25,8 +25,8 @@ and execute java com.cpirvu.ImageProcessor -P "../../test".
 For the input arguments, you can use the following:
 ```
     - -P <path>, the path to the image file or directory of image files
-    - [-M <numberOfThreads>], instructs the application to use up to numberOfThreads threads, if the file is a directory (1-255, default is 5).
-    - [-T <threshold>], change the static threshold used in binarization algorithm (0-255). Default is 127.
+    - [-M <num>], instructs the application to use up to num (<256) threads if the file is a directory. Default is 5
+    - [-T <threshold>], change the static threshold used in binarization algorithm (0-255). Default is 127
     - [-F], "force" meaning to first convert the 24bit BMP to grayscale if needed
 ```
 
