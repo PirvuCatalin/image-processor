@@ -10,6 +10,8 @@ This is meant to teach us concepts of OOP, that's why you can see the extra-abst
 Under the folder [/out](out), the .class files, the .jar and javadoc will be kept updated for the ease of use.
 Of course they can also be manually generated with the sources.
 
+This will require JRE >= 8.
+
 To test this, you can use the images under [/test](out/test) folder 
 (they also contain invalid images, for the sake of testing) and follow the steps: 
 ```
